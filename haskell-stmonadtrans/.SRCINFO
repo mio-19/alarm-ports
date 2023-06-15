@@ -1,0 +1,16 @@
+pkgbase = haskell-stmonadtrans
+	pkgdesc = A monad transformer version of the ST monad
+	pkgver = 0.4.6
+	pkgrel = 78
+	url = https://hackage.haskell.org/package/STMonadTrans
+	arch = x86_64
+	license = BSD
+	makedepends = ghc
+	makedepends = haskell-tasty
+	makedepends = haskell-tasty-hunit
+	makedepends = haskell-tasty-quickcheck
+	depends = ghc-libs
+	source = https://hackage.haskell.org/packages/archive/STMonadTrans/0.4.6/STMonadTrans-0.4.6.tar.gz
+	sha512sums = 51271beb580b44029fad41bb03ed3585acf803af6c60dd410a00196505f872cc38974dbc078a0a1f8077dbd69354906ce46f43cab9e82f6610fb668e15019080
+
+pkgname = haskell-stmonadtrans

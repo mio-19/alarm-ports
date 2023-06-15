@@ -1,0 +1,20 @@
+pkgbase = haskell-blaze-html
+	pkgdesc = A blazingly fast HTML combinator library for Haskell
+	pkgver = 0.9.1.2
+	pkgrel = 204
+	url = https://jaspervdj.be/blaze
+	arch = x86_64
+	license = BSD
+	makedepends = ghc
+	makedepends = haskell-hunit
+	makedepends = haskell-quickcheck
+	makedepends = haskell-test-framework
+	makedepends = haskell-test-framework-hunit
+	makedepends = haskell-test-framework-quickcheck2
+	depends = ghc-libs
+	depends = haskell-blaze-builder
+	depends = haskell-blaze-markup
+	source = https://hackage.haskell.org/packages/archive/blaze-html/0.9.1.2/blaze-html-0.9.1.2.tar.gz
+	sha512sums = 26e5294285033fa453ab9914a5bdb37c42f5b7c3a10400be1ff6dd125a70499d556c106cc8128154dc0c455c8b80b489a883265fcb626e2d4afcd8e4d94374bc
+
+pkgname = haskell-blaze-html

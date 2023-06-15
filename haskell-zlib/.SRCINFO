@@ -1,0 +1,18 @@
+pkgbase = haskell-zlib
+	pkgdesc = Compression and decompression in the gzip and zlib formats
+	pkgver = 0.6.3.0
+	pkgrel = 40
+	url = https://hackage.haskell.org/package/zlib
+	arch = x86_64
+	license = BSD
+	makedepends = ghc
+	makedepends = uusi
+	makedepends = haskell-quickcheck
+	makedepends = haskell-tasty
+	makedepends = haskell-tasty-quickcheck
+	depends = ghc-libs
+	depends = zlib
+	source = https://hackage.haskell.org/packages/archive/zlib/0.6.3.0/zlib-0.6.3.0.tar.gz
+	sha512sums = 95daae13c5d5458fd7c610ce4cc686dc7af477364c4dcf3d31abede84f6e4b4e70ea255f7ded586d46d9bb6298d19c93b8856eec16c6002265ed076e52bf9a21
+
+pkgname = haskell-zlib

@@ -1,0 +1,14 @@
+pkgbase = haskell-case-insensitive
+	pkgdesc = Case insensitive string comparison
+	pkgver = 1.2.1.0
+	pkgrel = 183
+	url = https://hackage.haskell.org/package/case-insensitive
+	arch = x86_64
+	license = BSD
+	makedepends = ghc
+	depends = ghc-libs
+	depends = haskell-hashable
+	source = https://hackage.haskell.org/packages/archive/case-insensitive/1.2.1.0/case-insensitive-1.2.1.0.tar.gz
+	sha512sums = 8e3bab4d1035d0bf96da24c7a4b79953b855c849cb0197bf65dc66b4394a92fea263fcffca4179005507a35234b7f60d873df41bc01a94fb2dfdbd91092e176b
+
+pkgname = haskell-case-insensitive

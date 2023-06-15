@@ -1,0 +1,23 @@
+pkgbase = haskell-time-compat
+	pkgdesc = Compatibility package for time
+	pkgver = 1.9.6.1
+	pkgrel = 77
+	url = https://github.com/phadej/time-compat
+	arch = x86_64
+	license = BSD
+	makedepends = ghc
+	makedepends = uusi
+	makedepends = haskell-base-compat
+	makedepends = haskell-hunit
+	makedepends = haskell-quickcheck
+	makedepends = haskell-tagged
+	makedepends = haskell-tasty
+	makedepends = haskell-tasty-hunit
+	makedepends = haskell-tasty-quickcheck
+	depends = ghc-libs
+	depends = haskell-base-orphans
+	depends = haskell-hashable
+	source = https://hackage.haskell.org/packages/archive/time-compat/1.9.6.1/time-compat-1.9.6.1.tar.gz
+	sha512sums = ca0b19aa5e7948fd7d9fbd8ff5e1b0f93a2d8d410d515e7078b40370e7d9fc363c111d53551d57a0320efb0894bcc2210afa8fc04da9f003ded626f53b7e58ea
+
+pkgname = haskell-time-compat

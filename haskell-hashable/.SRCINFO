@@ -1,0 +1,22 @@
+pkgbase = haskell-hashable
+	pkgdesc = A class for types that can be converted to a hash value
+	pkgver = 1.4.2.0
+	pkgrel = 23
+	url = https://github.com/haskell-unordered-containers/hashable
+	arch = x86_64
+	license = BSD
+	checkdepends = haskell-hunit
+	checkdepends = haskell-quickcheck
+	checkdepends = haskell-random
+	checkdepends = haskell-test-framework
+	checkdepends = haskell-test-framework-hunit
+	checkdepends = haskell-test-framework-quickcheck2
+	makedepends = ghc
+	depends = ghc-libs
+	depends = haskell-base-orphans
+	depends = haskell-data-array-byte
+	depends = haskell-ghc-bignum-orphans
+	source = https://hackage.haskell.org/packages/archive/hashable/1.4.2.0/hashable-1.4.2.0.tar.gz
+	sha512sums = 6e44177b6c00d4b385696348a8f66e6158beeb224aa85726141bc4d58c5e3094dab35dd68ae4ef61845ccb3ffd8836547d988d61e9b39176782b567189381140
+
+pkgname = haskell-hashable

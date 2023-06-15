@@ -1,0 +1,23 @@
+pkgbase = haskell-vector
+	pkgdesc = Efficient Arrays
+	pkgver = 0.13.0.0
+	pkgrel = 43
+	url = https://hackage.haskell.org/package/vector
+	arch = x86_64
+	license = BSD
+	checkdepends = haskell-base-orphans
+	checkdepends = haskell-hunit
+	checkdepends = haskell-quickcheck
+	checkdepends = haskell-random
+	checkdepends = haskell-tasty
+	checkdepends = haskell-tasty-hunit
+	checkdepends = haskell-tasty-inspection-testing
+	checkdepends = haskell-tasty-quickcheck
+	makedepends = ghc
+	depends = ghc-libs
+	depends = haskell-primitive
+	depends = haskell-vector-stream
+	source = https://hackage.haskell.org/packages/archive/vector/0.13.0.0/vector-0.13.0.0.tar.gz
+	sha512sums = aadb33cb1acf3cc634631fbf6a8764fb92514a43c17395e305c9fcc91e0768ce51cec30c542a9ba998bf90e297732082ef5dbbf74232c885d613ac0fb7bcd2e1
+
+pkgname = haskell-vector

@@ -1,0 +1,13 @@
+pkgbase = haskell-parallel
+	pkgdesc = Parallel programming library
+	pkgver = 3.2.2.0
+	pkgrel = 17
+	url = https://hackage.haskell.org/package/parallel
+	arch = x86_64
+	license = BSD
+	makedepends = ghc
+	depends = ghc-libs
+	source = https://hackage.haskell.org/packages/archive/parallel/3.2.2.0/parallel-3.2.2.0.tar.gz
+	sha512sums = ca1fe3fc5f9478dd52b42243d1191a2327c22946eb11d2d3426b9da2d833a61f182c20af9d15f7ceda6b58a28ee03de8837b6ca5bdd34e7306894db97f37f7bc
+
+pkgname = haskell-parallel

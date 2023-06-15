@@ -1,0 +1,14 @@
+pkgbase = haskell-split
+	pkgdesc = Combinator library for splitting lists.
+	pkgver = 0.2.3.5
+	pkgrel = 26
+	url = https://hackage.haskell.org/package/split
+	arch = x86_64
+	license = BSD
+	makedepends = ghc
+	makedepends = haskell-quickcheck
+	depends = ghc-libs
+	source = https://hackage.haskell.org/packages/archive/split/0.2.3.5/split-0.2.3.5.tar.gz
+	sha512sums = a88ff185d0e3ae4908911b70475831baa01ba6cce74fe187ed47dccb28a06b83ca9ec03fa980b77aced75c38fa1dede5166c839c3bfd7f30585ae9b45157a8b9
+
+pkgname = haskell-split

@@ -4,7 +4,6 @@ pkgbase = racket
 	pkgrel = 2
 	url = https://racket-lang.org/
 	arch = x86_64
-	arch = aarch64
 	license = Apache
 	license = GPL3
 	license = LGPL3

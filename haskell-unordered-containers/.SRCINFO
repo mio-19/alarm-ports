@@ -1,0 +1,22 @@
+pkgbase = haskell-unordered-containers
+	pkgdesc = Efficient hashing-based container types
+	pkgver = 0.2.19.1
+	pkgrel = 69
+	url = https://github.com/haskell-unordered-containers/unordered-containers
+	arch = x86_64
+	license = BSD
+	makedepends = ghc
+	makedepends = haskell-chasingbottoms
+	makedepends = haskell-hunit
+	makedepends = haskell-nothunks
+	makedepends = haskell-quickcheck
+	makedepends = haskell-random
+	makedepends = haskell-tasty
+	makedepends = haskell-tasty-hunit
+	makedepends = haskell-tasty-quickcheck
+	depends = ghc-libs
+	depends = haskell-hashable
+	source = https://hackage.haskell.org/packages/archive/unordered-containers/0.2.19.1/unordered-containers-0.2.19.1.tar.gz
+	sha512sums = 2ea49766210fcec1f8f8bd99c2bb296c4ffcb7ab00317b7663436b6ab0037f9b78cfa22631a1e2bc1f34b6c9b08614aa0ca98c5256ab18258645bfd72351b712
+
+pkgname = haskell-unordered-containers

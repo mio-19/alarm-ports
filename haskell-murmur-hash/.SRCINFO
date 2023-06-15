@@ -1,0 +1,13 @@
+pkgbase = haskell-murmur-hash
+	pkgdesc = MurmurHash2 implementation for Haskell.
+	pkgver = 0.1.0.10
+	pkgrel = 2
+	url = https://github.com/nominolo/murmur-hash
+	arch = x86_64
+	license = BSD
+	makedepends = ghc
+	depends = ghc-libs
+	source = https://hackage.haskell.org/packages/archive/murmur-hash/0.1.0.10/murmur-hash-0.1.0.10.tar.gz
+	sha512sums = d6d28fcd738de98ce4fb6c7e997b32bb15eef9efe53642cefffd2cfeccd1b56f634adbcadeec9fb94c69d1df9e675f7daf368c62806ef819dc242df947ddf70b
+
+pkgname = haskell-murmur-hash

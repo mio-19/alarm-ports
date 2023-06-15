@@ -1,0 +1,18 @@
+pkgbase = haskell-async
+	pkgdesc = Run IO operations asynchronously and wait for their results
+	pkgver = 2.2.4
+	pkgrel = 161
+	url = https://github.com/simonmar/async
+	arch = x86_64
+	license = BSD
+	checkdepends = haskell-hunit
+	checkdepends = haskell-test-framework
+	checkdepends = haskell-test-framework-hunit
+	makedepends = ghc
+	makedepends = uusi
+	depends = ghc-libs
+	depends = haskell-hashable
+	source = https://hackage.haskell.org/packages/archive/async/2.2.4/async-2.2.4.tar.gz
+	sha512sums = 24f37f974dd7573138475d04c0fccb97fcbd8b3de56f7d06199b8f936fd9a29cd0ba0574212a753a81de8958b3292ecee79d0e8d0d2f51eb91874424e6219569
+
+pkgname = haskell-async

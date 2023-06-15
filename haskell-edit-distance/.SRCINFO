@@ -1,0 +1,14 @@
+pkgbase = haskell-edit-distance
+	pkgdesc = Levenshtein and restricted Damerau-Levenshtein edit distances
+	pkgver = 0.2.2.1
+	pkgrel = 187
+	url = https://github.com/phadej/edit-distance
+	arch = x86_64
+	license = BSD
+	makedepends = ghc
+	depends = ghc-libs
+	depends = haskell-random
+	source = https://hackage.haskell.org/packages/archive/edit-distance/0.2.2.1/edit-distance-0.2.2.1.tar.gz
+	sha512sums = 67d19c9f5712191f88641d32ff0b84aaf05c2acd71cfa81a17675690ac9076b34aff687afa8501f8b22ddcece12a439e053265d14b70dc155b0e08406050fdd7
+
+pkgname = haskell-edit-distance

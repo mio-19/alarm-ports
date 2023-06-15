@@ -1,0 +1,16 @@
+pkgbase = haskell-monad-control
+	pkgdesc = Lift control operations, like exception catching, through monad transformers
+	pkgver = 1.0.3.1
+	pkgrel = 82
+	url = https://github.com/basvandijk/monad-control
+	arch = x86_64
+	license = BSD
+	makedepends = ghc
+	makedepends = uusi
+	depends = ghc-libs
+	depends = haskell-transformers-base
+	depends = haskell-transformers-compat
+	source = https://hackage.haskell.org/packages/archive/monad-control/1.0.3.1/monad-control-1.0.3.1.tar.gz
+	sha512sums = b82ac2d3b2ab1892f79bab1341c9ff17ea89b988438cfd40c246f5ffe4560cb2b77e4a1ed1aa9dc2bb64644b9d6da76eda7b40acf8cc34bb03e77b18127e93a1
+
+pkgname = haskell-monad-control

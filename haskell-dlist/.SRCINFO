@@ -1,0 +1,14 @@
+pkgbase = haskell-dlist
+	pkgdesc = Differences lists
+	pkgver = 1.0
+	pkgrel = 211
+	url = https://hackage.haskell.org/package/dlist
+	arch = x86_64
+	license = BSD
+	checkdepends = haskell-quickcheck
+	makedepends = ghc
+	depends = ghc-libs
+	source = https://hackage.haskell.org/packages/archive/dlist/1.0/dlist-1.0.tar.gz
+	sha512sums = 8985b9e775e8d99c3d8cf59eabfb7ed13c395482186b086831a79afea9b980ee59e386856df82dcc030f430be55cc95fa057e962776fe37a371e8be5ae19abef
+
+pkgname = haskell-dlist

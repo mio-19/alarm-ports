@@ -1,0 +1,14 @@
+pkgbase = haskell-boxes
+	pkgdesc = 2D text pretty-printing library
+	pkgver = 0.1.5
+	pkgrel = 217
+	url = https://hackage.haskell.org/package/boxes
+	arch = x86_64
+	license = BSD
+	makedepends = ghc
+	depends = ghc-libs
+	depends = haskell-split
+	source = https://hackage.haskell.org/packages/archive/boxes/0.1.5/boxes-0.1.5.tar.gz
+	sha512sums = 44527be9a8351aef9e6a98bc90276c0137892e2672ca5ae15968ac21cfc1f0ce92d2c734c26b5493b2f8597ab1a65cb9cf5d050b6b02b0a61d6b6df4143ba4d7
+
+pkgname = haskell-boxes
