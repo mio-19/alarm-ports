@@ -1,0 +1,30 @@
+pkgbase = racket
+	pkgdesc = A full-spectrum language with DrRacket IDE
+	pkgver = 8.9
+	pkgrel = 2
+	url = https://racket-lang.org/
+	arch = x86_64
+	arch = aarch64
+	license = Apache
+	license = GPL3
+	license = LGPL3
+	license = custom
+	makedepends = gsfonts
+	makedepends = sqlite
+	depends = gtk3
+	conflicts = racket-docs
+	replaces = racket-docs
+	options = !strip
+	options = !emptydirs
+	source = https://download.racket-lang.org/installers/8.9/racket-8.9-src.tgz
+	sha512sums = 371faf2a44fe4c7b57a0eaf042e85c5d4c5074c45b88ba9c95b812075ab0b8d05ac9080d8c1b2ac688489afb448f4e7ab3c684e06afa72c78c32a9404e088de5
+	b2sums = 860aa8fd7673ec484a9856a8b7dea8915ca444fb15158703b8e04562b489a548e350f41d954f578f777e7936e67ec65076f2715228778ae09e22a3ea8c932fbf
+
+pkgname = racket
+
+pkgname = racket-minimal
+	pkgdesc = Minimal Racket installation, without DrRacket/docs
+	depends = libffi
+	provides = racket
+	conflicts = racket
+	replaces = 
